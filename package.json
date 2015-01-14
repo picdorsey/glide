@@ -1,0 +1,13 @@
+{
+  "name": "Shift",
+  "version": "1.0.0",
+  "description": "A slick JS scroll-to component.",
+  "author": "Adam Dorsey",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/picdorsey/shift.git"
+  },
+  "dependencies": {
+    "tween.js": "~0.14.0"
+  }
+}
