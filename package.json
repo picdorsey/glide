@@ -1,6 +1,6 @@
 {
-  "name": "Glide",
-  "version": "0.2.0",
+  "name": "glide",
+  "version": "0.3.0",
   "description": "A slick JS scroll-to component.",
   "author": "Adam Dorsey",
   "repository": {
