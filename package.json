@@ -1,11 +1,11 @@
 {
-  "name": "Shift",
-  "version": "0.1.0",
+  "name": "Glide",
+  "version": "0.2.0",
   "description": "A slick JS scroll-to component.",
   "author": "Adam Dorsey",
   "repository": {
     "type": "git",
-    "url": "git://github.com/picdorsey/shift.git"
+    "url": "git://github.com/picdorsey/glide.git"
   },
   "dependencies": {
     "tween.js": "~0.14.0"
