@@ -1,7 +1,7 @@
-/* global $: false, module, window, document, requestAnimationFrame */
+/* jslint browser: true */
 
 /*
-    Shift - A slick JS scroll-to component.
+    Glide - A slick JS scroll-to component.
     Copyright (c) 2015 Piccirilli Dorsey, Inc.
  */
 
