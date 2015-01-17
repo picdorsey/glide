@@ -1,7 +1,5 @@
 # Glide
-A slick JS scroll-to component.
-
-## A slick JS scroll-to component.
+### A slick JS scroll-to component.
 
 Glide is a really simple scroll-to component written in vanilla JS. You can use it in vanilla JS or integrate it with jQuery.
 
