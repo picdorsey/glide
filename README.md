@@ -43,6 +43,10 @@ $(function(){
 });
 ```
 
+### Sites using Glide
+
+[6 Summits Challenge](http://6summitschallenge.com)
+
 ## Credits
 
 Glide is maintained by [Piccirilli Dorsey](https://github.com/picdorsey)
