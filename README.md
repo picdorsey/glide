@@ -53,4 +53,4 @@ Glide is maintained by [Piccirilli Dorsey](https://github.com/picdorsey)
 
 ## License
 
-[license](LICENSE)
+[MIT](LICENSE)

@@ -1,7 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
-2 info using npm@1.4.23
-3 info using node@v0.10.31
+2 info using npm@1.4.28
+3 info using node@v0.10.35
 4 verbose publish [ './' ]
 5 verbose cache add [ './', null ]
 6 verbose cache add name=undefined spec="./" args=["./",null]
@@ -19,80 +19,45 @@
 7 verbose parsed url   href: './' }
 8 silly lockFile 0ee6c175- ./
 9 verbose lock ./ /Users/adam/.npm/0ee6c175-.lock
-10 verbose tar pack [ '/Users/adam/.npm/Glide/0.2.0/package.tgz', './' ]
-11 verbose tarball /Users/adam/.npm/Glide/0.2.0/package.tgz
+10 verbose tar pack [ '/Users/adam/.npm/glide/0.2.0/package.tgz', './' ]
+11 verbose tarball /Users/adam/.npm/glide/0.2.0/package.tgz
 12 verbose folder ./
-13 info prepublish Glide@0.2.0
+13 info prepublish glide@0.2.0
 14 silly lockFile 04cb2bca-tar tar://./
 15 verbose lock tar://./ /Users/adam/.npm/04cb2bca-tar.lock
-16 silly lockFile 706327b7-adam-npm-Glide-0-2-0-package-tgz tar:///Users/adam/.npm/Glide/0.2.0/package.tgz
-17 verbose lock tar:///Users/adam/.npm/Glide/0.2.0/package.tgz /Users/adam/.npm/706327b7-adam-npm-Glide-0-2-0-package-tgz.lock
+16 silly lockFile 601cc627-adam-npm-glide-0-2-0-package-tgz tar:///Users/adam/.npm/glide/0.2.0/package.tgz
+17 verbose lock tar:///Users/adam/.npm/glide/0.2.0/package.tgz /Users/adam/.npm/601cc627-adam-npm-glide-0-2-0-package-tgz.lock
 18 silly lockFile 04cb2bca-tar tar://./
 19 silly lockFile 04cb2bca-tar tar://./
-20 silly lockFile 706327b7-adam-npm-Glide-0-2-0-package-tgz tar:///Users/adam/.npm/Glide/0.2.0/package.tgz
-21 silly lockFile 706327b7-adam-npm-Glide-0-2-0-package-tgz tar:///Users/adam/.npm/Glide/0.2.0/package.tgz
-22 silly lockFile 02d00da1-ers-adam-npm-Glide-0-2-0-package /Users/adam/.npm/Glide/0.2.0/package
-23 verbose lock /Users/adam/.npm/Glide/0.2.0/package /Users/adam/.npm/02d00da1-ers-adam-npm-Glide-0-2-0-package.lock
-24 silly lockFile 02d00da1-ers-adam-npm-Glide-0-2-0-package /Users/adam/.npm/Glide/0.2.0/package
-25 silly lockFile 02d00da1-ers-adam-npm-Glide-0-2-0-package /Users/adam/.npm/Glide/0.2.0/package
+20 silly lockFile 601cc627-adam-npm-glide-0-2-0-package-tgz tar:///Users/adam/.npm/glide/0.2.0/package.tgz
+21 silly lockFile 601cc627-adam-npm-glide-0-2-0-package-tgz tar:///Users/adam/.npm/glide/0.2.0/package.tgz
+22 silly lockFile 5f772bf1-ers-adam-npm-glide-0-2-0-package /Users/adam/.npm/glide/0.2.0/package
+23 verbose lock /Users/adam/.npm/glide/0.2.0/package /Users/adam/.npm/5f772bf1-ers-adam-npm-glide-0-2-0-package.lock
+24 silly lockFile 5f772bf1-ers-adam-npm-glide-0-2-0-package /Users/adam/.npm/glide/0.2.0/package
+25 silly lockFile 5f772bf1-ers-adam-npm-glide-0-2-0-package /Users/adam/.npm/glide/0.2.0/package
 26 silly lockFile 0ee6c175- ./
 27 silly lockFile 0ee6c175- ./
-28 silly publish { name: 'Glide',
+28 silly publish { name: 'glide',
 28 silly publish   version: '0.2.0',
 28 silly publish   description: 'A slick JS scroll-to component.',
 28 silly publish   author: { name: 'Adam Dorsey' },
 28 silly publish   repository: { type: 'git', url: 'git://github.com/picdorsey/glide.git' },
 28 silly publish   dependencies: { 'tween.js': '~0.14.0' },
-28 silly publish   readme: '# Glide\nA slick JS scroll-to component.\n',
+28 silly publish   readme: '# Glide\n### A slick JS scroll-to component.\n\nGlide is a really simple scroll-to component written in vanilla JS. You can use it in vanilla JS or integrate it with jQuery.\n\n- **[Changelog](https://github.com/picdorsey/glide/releases)**\n- **[Issues](https://github.com/picdorsey/glide/issues)**\n\n## Requirments\n- [Tween.js](https://github.com/sole/tween.js/)\n\n## Installation\n\n```\nnpm install glide\n```\n\n## Usage\n\nRequire it:\n\n```\nvar Glide = require(\'glide\');\n```\n\nThen call it:\n\n```\nnew Glide(element, offset);\n```\n\n*The offset is added to the top of the element and should just be numeric (e.g. 100).*\n\nHere is an example in jQuery that will take the href of each main nav link and go to that id in the DOM.\n\n```\n$(function(){\n    $(\'.main-nav a\').on(\'click\', function(e){\n        e.preventDefault();\n        var t = this.hash.replace(\'#\', \'\');\n        new Glide(t, 130);\n    });\n});\n```\n\n## Sites using Glide\n\n[6 Summits Challenge](http://6summitschallenge.com)\n\n## Credits\n\nGlide is maintained by [Piccirilli Dorsey](https://github.com/picdorsey)\n\n## License\n\n[license](LICENSE)',
 28 silly publish   readmeFilename: 'README.md',
-28 silly publish   gitHead: '240847454ad55f7e85e47dcc73c801e99f6546b2',
+28 silly publish   gitHead: '7ee0d9c5a78c9291a53f5c0ce84ed19d7de4ae78',
 28 silly publish   bugs: { url: 'https://github.com/picdorsey/glide/issues' },
 28 silly publish   homepage: 'https://github.com/picdorsey/glide',
-28 silly publish   _id: 'Glide@0.2.0',
+28 silly publish   _id: 'glide@0.2.0',
 28 silly publish   scripts: {},
-28 silly publish   _shasum: '06c9120818bf569cef5a20cb0468578fa90a13d8',
+28 silly publish   _shasum: 'd62da76bae30ebc2e488da231e4214105bbd73d2',
 28 silly publish   _from: './' }
-29 verbose request where is /Glide
-30 verbose request registry https://registry.npmjs.org/
-31 verbose request id 8d07d90b26e54eba
-32 verbose url raw /Glide
-33 verbose url resolving [ 'https://registry.npmjs.org/', './Glide' ]
-34 verbose url resolved https://registry.npmjs.org/Glide
-35 verbose request where is https://registry.npmjs.org/Glide
-36 info trying registry request attempt 1 at 18:27:31
-37 http PUT https://registry.npmjs.org/Glide
-38 http 403 https://registry.npmjs.org/Glide
-39 verbose headers { date: 'Wed, 14 Jan 2015 23:27:31 GMT',
-39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-39 verbose headers   'content-type': 'application/json',
-39 verbose headers   'cache-control': 'max-age=60',
-39 verbose headers   'content-length': '76',
-39 verbose headers   'accept-ranges': 'bytes',
-39 verbose headers   via: '1.1 varnish',
-39 verbose headers   'x-served-by': 'cache-jfk1033-JFK',
-39 verbose headers   'x-cache': 'MISS',
-39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1421278051.426761,VS0,VE92',
-39 verbose headers   'keep-alive': 'timeout=10, max=50',
-39 verbose headers   connection: 'Keep-Alive' }
-40 error publish Failed PUT 403
-41 error Error: forbidden New packages must have all-lowercase names: Glide
-41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:300:14)
-41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:65)
-41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
-41 error     at Request.emit (events.js:98:17)
-41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
-41 error     at Request.emit (events.js:117:20)
-41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
-41 error     at IncomingMessage.emit (events.js:117:20)
-41 error     at _stream_readable.js:943:16
-41 error     at process._tickCallback (node.js:419:13)
-42 error If you need help, you may report this *entire* log,
-42 error including the npm and node versions, at:
-42 error     <http://github.com/npm/npm/issues>
-43 error System Darwin 14.0.0
-44 error command "node" "/usr/local/bin/npm" "publish" "./"
-45 error cwd /Users/adam/Dev/glide
-46 error node -v v0.10.31
-47 error npm -v 1.4.23
-48 verbose exit [ 1, true ]
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Darwin 14.0.0
+31 error command "node" "/usr/local/bin/npm" "publish" "./"
+32 error cwd /Users/adam/Dev/Projects/glide
+33 error node -v v0.10.35
+34 error npm -v 1.4.28
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]
