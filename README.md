@@ -43,7 +43,7 @@ $(function(){
 });
 ```
 
-### Sites using Glide
+## Sites using Glide
 
 [6 Summits Challenge](http://6summitschallenge.com)
 
