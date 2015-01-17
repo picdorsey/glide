@@ -2,6 +2,16 @@
   "name": "glide",
   "version": "0.2.0",
   "description": "A slick JS scroll-to component.",
+  "keywords": [
+    "slide",
+    "scroll-to",
+    "goto",
+    "easing",
+    "smooth",
+    "back-to-top",
+    "jump-to",
+    "anchor"
+  ],
   "author": "Adam Dorsey",
   "repository": {
     "type": "git",
