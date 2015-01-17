@@ -3,8 +3,8 @@
 
 Glide is a really simple scroll-to component written in vanilla JS. You can use it in vanilla JS or integrate it with jQuery.
 
-- **[Changelog](https://github.com/picdorsey/frunt/releases)**
-- **[Issues](https://github.com/picdorsey/frunt/issues)**
+- **[Changelog](https://github.com/picdorsey/glide/releases)**
+- **[Issues](https://github.com/picdorsey/glide/issues)**
 
 ## Requirments
 - [Tween.js](https://github.com/sole/tween.js/)
